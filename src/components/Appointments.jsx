@@ -34,7 +34,7 @@ return (
         <thead>
           <tr className='bg-slate-50 border-slate-200 border-b-2 rounded-lg'>
             {
-              patientsHeaders?.map((header)=>(<th key={header} className='w-48 uppercase text-left text-xs text-zinc-400 py-6 px-3'> {header.replaceAll("_", " ").replaceAll("appointment", "")}
+              patientsHeaders?.map((header)=>(<th key={header} className={`${header.includes("patient") ? 'w-64': 'w-48'} uppercase text-left text-xs text-zinc-400 py-6 px-3`}> {header.replaceAll("_", " ").replaceAll("appointment", "")}
               </th>))
             }
             <th className='w-32 uppercase text-left text-zinc-400 p-3 text-xs'>
