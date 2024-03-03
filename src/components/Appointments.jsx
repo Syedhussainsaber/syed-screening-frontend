@@ -30,7 +30,7 @@ getPatientList()
 return (
     <div className='w-full overflow-auto mx-2 p-3 border-slate-100 border-2 rounded-lg lg:w-4/5 lg:py-4 lg:px-6'>
       <h4 className='text-xl font-bold text-slate-400'>Today's Appointment List</h4>
-      <table className='w-full mt-4 mx-auto table-fixed shadow-lg'>
+      <table className='w-full mt-4 mx-auto'>
         <thead>
           <tr className='bg-slate-50 border-slate-200 border-b-2 rounded-lg'>
             {
