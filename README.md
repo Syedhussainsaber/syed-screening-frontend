@@ -1,8 +1,7 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hi, I am Syed Hussain Saber. This is an assessment project of screening-frontend. It is implemented using ReactJs and Tailwind CSS.
 
-Currently, two official plugins are available:
+Email: syedhussainsaber8@gmail.com  <br/>
+Linkedin profile: https://www.linkedin.com/in/syed-hussain-saber/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
