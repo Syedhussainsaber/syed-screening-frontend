@@ -30,7 +30,7 @@ getPatientList()
 return (
     <div className='w-full overflow-auto mx-2 p-3 border-slate-100 border-2 rounded-lg lg:w-4/5 lg:py-4 lg:px-6'>
       <h4 className='text-xl font-bold text-slate-400'>Today's Appointment List</h4>
-      <table className='w-full mt-4 mx-auto table-fixed'>
+      <table className='w-full mt-4 mx-auto table-fixed shadow-lg shadow-gray-500/50'>
         <thead>
           <tr className='bg-slate-50 border-slate-200 border-b-2 rounded-lg'>
             {
@@ -45,7 +45,7 @@ return (
         
         <tbody>
           {patientsData?.map((row, index) => (
-            <tr key={index} className='border-b-2 border-slate-200' >
+            <tr key={index} className='border-b-2 border-slate-200 hover:shadow-gray-500/40' >
              <td className=' w-64 capitalize text-gray-500'>
               <div className='p-3 flex justify-start items-center gap-2'>
                 <div className='w-10 h-10 rounded-full p-2 border-2 flex justify-center items-center text-xs'>
